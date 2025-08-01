@@ -35,9 +35,7 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
   
 * Consumer behavior showed a clear preference for T-shirts and Shirts, especially in sizes S to 3XL. These two categories consistently led purchase volumes across most Indian states, notably Karnataka, Andhra Pradesh, and Tamil Nadu. Additionally, the trend between order quantity and order value was positively correlated, suggesting a stable value-per-item ratio across transactions.
 
-  
-
-[Visualization specific to category 1]
+![image alt](https://github.com/nthanhthao01/Amazon-Project/blob/main/Sales.png?raw=true)
 
 
 ### Supply Chain:
