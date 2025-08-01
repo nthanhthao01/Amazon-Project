@@ -46,7 +46,7 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
   
 * T-shirts and Shirts remained the most frequently shipped categories—aligning with overall sales trends—but also showed higher counts in ‘Unshipped’ and ‘Cancelled’ statuses.
 
-[Visualization specific to category 2]
+![image alt](https://github.com/nthanhthao01/Amazon-Project/blob/main/Supply%20Chain.png?raw=true)
 
 
 # Recommendations:
