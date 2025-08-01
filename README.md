@@ -26,8 +26,8 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 - From a customer behavior standpoint, non-business customers dominate, with a clear preference for purchasing through Amazon.in. This channel drives the bulk of order volume, especially in the B2C space.
 - Lastly, in terms of product performance, T-shirts and Shirts dominate in both quantity and total amount, indicating strong customer demand in the casual wear category.
 
-![image alt](https://github.com/nthanhthao01/Amazon-Project/issues/1#issue-3282300161)
-
+[![image alt](https://github.com/nthanhthao01/Amazon-Project/issues/1#issue-3282300161)
+](https://github.com/nthanhthao01/Amazon-Project/blob/main/Overview.png?raw=true)
 
 
 # Insights Deep Dive
