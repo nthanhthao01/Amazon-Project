@@ -1,30 +1,17 @@
 # Project Background
-Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
+Amazon, founded in 1994, is a global e-commerce and technology leader operating in sectors such as retail, cloud computing, logistics, and digital streaming. With nearly three decades of operation, the company has evolved from an online bookstore into a multinational conglomerate serving millions of customers daily.
+
+As a data analyst at Amazon, my role centers on extracting actionable insights from vast volumes of operational data to support strategic decisions across various departments. This project focuses specifically on analyzing key performance metrics from Amazon’s sales and supply chain operations over a given period.
 
 Insights and recommendations are provided on the following key areas:
 
-- **Category 1:** 
-- **Category 2:** 
-- **Category 3:** 
-- **Category 4:** 
+- **Overview:** A general look into the scope and performance of recent operations.
+- **Sales:**  Identifying trends in revenue, top-selling products, customer behavior, and seasonal impacts.
+- **Supply Chain:** Evaluating delivery performance, order fulfillment, logistics partners, and regional variations in service.
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
-Targed SQL queries regarding various business questions can be found here [link].
-
 An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
-
-
-
-# Data Structure & Initial Checks
-
-The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
-- **Table 2:**
-- **Table 3:**
-- **Table 4:**
-- **Table 5:**
-
-[Entity Relationship Diagram here]
 
 
 
@@ -32,79 +19,54 @@ The companies main database structure as seen below consists of four tables: tab
 
 ### Overview of Findings
 
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
+- In Quarter 2, the company recorded 120,000 total orders, 116,000 units sold, and a total revenue of ₹79.55 million. While the numbers may seem solid at first glance, a deeper look reveals several anomalies and critical insights that highlight operational challenges.
+- First, there is a data anomaly where total quantity < total orders, likely due to cancelled orders where quantity resets to zero. This points to potential data handling or order processing issues.
+- The overall monthly performance showed a consistent decline from April to June, suggesting possible seasonal trends or decreased customer demand.However, more importantly, only 22.07% of orders were successfully delivered, while a staggering 61.98% (74,423 orders) remained in “Ongoing” status as of the reporting date.
+- Notably, among the 74,423 ongoing orders, a significant portion originated from April and May. Since the total order count in June was 35,170, this implies that nearly 39,000 orders from earlier months had yet to be completed even after one month or more, pointing to substantial fulfillment and logistics delays.
+- From a customer behavior standpoint, non-business customers dominate, with a clear preference for purchasing through Amazon.in. This channel drives the bulk of order volume, especially in the B2C space.
+- Lastly, in terms of product performance, T-shirts and Shirts dominate in both quantity and total amount, indicating strong customer demand in the casual wear category.
 
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
+![Page 1](https://github.com/nthanhthao01/Amazon-Project/issues/1#issue-3282300161)
 
 
 
 # Insights Deep Dive
-### Category 1:
+### Sales:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* Sales activity remained relatively stable throughout the week, with both total orders and revenue dipping slightly on Thursday before rebounding by Sunday. The average quantity per order (0.97) and average amount per order (₹662.55) were affected by cancelled orders, as such entries typically reset their quantity and value to zero.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* Consumer behavior showed a clear preference for T-shirts and Shirts, especially in sizes S to 3XL. These two categories consistently led purchase volumes across most Indian states, notably Karnataka, Andhra Pradesh, and Tamil Nadu. Additionally, the trend between order quantity and order value was positively correlated, suggesting a stable value-per-item ratio across transactions.
+
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
 [Visualization specific to category 1]
 
 
-### Category 2:
+### Supply Chain:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* Total package volume declined month-over-month, which correlates with the drop in total orders observed in the Sales dashboard. Most packages were still shipped out successfully, showing that outbound operations remained steady.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* Expedited shipping accounted for 2–3 times more volume than Standard across all states, particularly in high-demand regions like Maharashtra, Karnataka, and Andhra Pradesh. Notably, Expedited orders are fulfilled by Amazon, while Standard orders are typically merchant-fulfilled, highlighting a split in fulfillment responsibility.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* T-shirts and Shirts remained the most frequently shipped categories—aligning with overall sales trends—but also showed higher counts in ‘Unshipped’ and ‘Cancelled’ statuses.
 
 [Visualization specific to category 2]
-
-
-### Category 3:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 3]
-
-
-### Category 4:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 4]
-
 
 
 # Recommendations:
 
 Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* **Address order fulfillment delays:** With over 39,000 orders from April and May still incomplete by the end of Q2, a real-time tracking and escalation system is needed to reduce delivery delays and improve customer satisfaction.
+
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* **Secure inventory for top-performing products:** T-shirts and shirts in sizes S to 3XL are in high demand across India, especially in Karnataka, Andhra Pradesh, and Tamil Nadu. Ensuring stock availability for these SKUs should be a priority to meet customer expectations and sustain revenue.
+
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* **Scale expedited shipping in high-demand states:** Expedited shipping volumes were 2–3 times higher than Standard and are managed by Amazon directly. Expanding this service, particularly in key states, will help maintain delivery speed and success rates.
+
+
+* **Address data discrepancies in order processing:** The gap between total orders (120K) and total quantity sold (116K) suggests that cancellations are not consistently handled in reporting, particularly when canceled orders reset quantities to zero. This highlights the need to improve how cancellations are logged and reported to ensure accurate performance tracking.
   
 
 
@@ -112,8 +74,8 @@ Based on the insights and findings above, we would recommend the [stakeholder te
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
 
-* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
-  
-* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
-  
-* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
+* **Assumption 1:** Several irrelevant or null-heavy columns (e.g., New, currency, ship_city) were excluded from analysis to reduce noise.
+
+* **Assumption 2:** Amount column had ~4.7% missing values, which were imputed using averages based on fulfillment type, sales channel, service level, and product attributes.
+
+* **Caveat:** Duplicate entries were not removed due to the absence of unique order-item identifiers, potentially leading to slight overcounting in product-level summaries.
