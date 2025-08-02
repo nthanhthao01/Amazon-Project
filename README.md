@@ -40,7 +40,7 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 
 ### Supply Chain:
 
-* Total package volume declined month-over-month, which correlates with the drop in total orders observed in the Sales dashboard. Most packages were still shipped out successfully, showing that outbound operations remained steady.
+* Total package volume declined month-over-month, which correlates with the drop in total orders observed in the Sales dashboard. Most packages were still shipped * Total package volume declined month-over-month, which correlates with the drop in total orders observed in the Sales dashboard. Most packages were still shipped out successfully, indicating stable outbound operations. However, it is important to note that an order may consist of multiple packages, and the failure of a single package can result in the entire order being marked as unsuccessful. This may partly explain why, despite consistent shipping activity, nearly 39,000 orders from April and May remained incomplete by the end of June — highlighting ongoing challenges in fulfillment and logistics efficiency.
   
 * Expedited shipping accounted for 2–3 times more volume than Standard across all states, particularly in high-demand regions like Maharashtra, Karnataka, and Andhra Pradesh. Notably, Expedited orders are fulfilled by Amazon, while Standard orders are typically merchant-fulfilled, highlighting a split in fulfillment responsibility.
   
