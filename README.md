@@ -51,7 +51,7 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 
 # Recommendations:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+Based on the insights and findings above, we would recommend the stakeholder team to consider the following: 
 
 * **Address order fulfillment delays:** With over 39,000 orders from April and May still incomplete by the end of Q2, a real-time tracking and escalation system is needed to reduce delivery delays and improve customer satisfaction.
 
