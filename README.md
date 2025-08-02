@@ -5,9 +5,9 @@ As a data analyst at Amazon, my role centers on extracting actionable insights f
 
 Insights and recommendations are provided on the following key areas:
 
-- **Overview:** A general look into the scope and performance of recent operations.
-- **Sales:**  Identifying trends in revenue, top-selling products, customer behavior, and seasonal impacts.
-- **Supply Chain:** Evaluating delivery performance, order fulfillment, logistics partners, and regional variations in service.
+- **Overview:** A general summary of total orders, quantities, order statuses, product categories, and top-performing states in Quarter 2.
+- **Sales:**  Identifying trends in order volume, item quantity, category-size preferences, daily purchasing behavior, and state-level demand.
+- **Supply Chain:** Evaluating package status, fulfillment methods, shipping efficiency, and regional differences in delivery performance.
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
