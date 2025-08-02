@@ -11,7 +11,7 @@ Insights and recommendations are provided on the following key areas:
 
 The original dataset used for this analysis can be found here [link](https://github.com/nthanhthao01/Amazon-Project/blob/main/Amazon%20Sale.csv)
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [link].
+The SQL queries used to inspect and clean the data for this analysis can be found here [link](https://github.com/nthanhthao01/Amazon-Project/blob/main/Amazon_Project_SQL_Script.sql)
 
 An interactive Power BI dashboard used to report and explore sales trends can be found here [link](https://app.powerbi.com/links/oqVd9J2wBu?ctid=a74aa7fa-f7f9-4020-a84a-057abbba6e9b&pbi_source=linkShare).
 
