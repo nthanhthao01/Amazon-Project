@@ -75,9 +75,9 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 * **Assumption 2:** Amount column had ~4.7% missing values, which were imputed using averages based on fulfillment type, sales channel, service level, and product attributes.
 
 * **Assumption 3:** To simplify analysis of order fulfillment outcomes, a new column named Grouped Status was created by grouping multiple detailed status values into four main categories:
-- Success: Includes orders marked as "Shipped - Delivered to Buyer".
-- Fail: Covers orders that were "Cancelled", "Shipped - Damaged", "Shipped - Lost in Transit", or "Shipped - Rejected by Buyer".
-- Return: Includes "Shipped - Returned to Seller" and "Shipped - Returning to Seller".
-- Ongoing: Captures all remaining statuses, representing orders that are still in progress or awaiting final outcome.
+  - Success: Includes orders marked as "Shipped - Delivered to Buyer".
+  - Fail: Covers orders that were "Cancelled", "Shipped - Damaged", "Shipped - Lost in Transit", or "Shipped - Rejected by Buyer".
+  - Return: Includes "Shipped - Returned to Seller" and "Shipped - Returning to Seller".
+  - Ongoing: Captures all remaining statuses, representing orders that are still in progress or awaiting final outcome.
 
 * **Caveat:** Duplicate entries were not removed due to the absence of unique order-item identifiers, potentially leading to slight overcounting in product-level summaries.
