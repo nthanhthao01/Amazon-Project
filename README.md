@@ -9,7 +9,7 @@ Insights and recommendations are provided on the following key areas:
 - **Sales:**  Identifying trends in order volume, item quantity, category-size preferences, daily purchasing behavior, and state-level demand.
 - **Supply Chain:** Evaluating package status, fulfillment methods, shipping efficiency, and regional differences in delivery performance.
 
-The original dataset used for this analysis can be found here [link]
+The original dataset used for this analysis can be found here [link](https://github.com/nthanhthao01/Amazon-Project/blob/main/Amazon%20Sale.csv)
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
