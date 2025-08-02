@@ -13,7 +13,7 @@ The original dataset used for this analysis can be found here [link](https://git
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
+An interactive Power BI dashboard used to report and explore sales trends can be found here [link](https://app.powerbi.com/links/oqVd9J2wBu?ctid=a74aa7fa-f7f9-4020-a84a-057abbba6e9b&pbi_source=linkShare).
 
 
 
